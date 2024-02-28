@@ -42,9 +42,8 @@ public final class Filters implements IFilter {
 				new EnumEmptyConstructorFilter(), new RecordsFilter(),
 				new ExhaustiveSwitchFilter(), //
 				new RecordPatternFilter(), //
-				new AnnotationGeneratedFilter(), new KotlinGeneratedFilter(),
-				new KotlinLateinitFilter(), new KotlinWhenFilter(),
-				new KotlinWhenStringFilter(),
+				new KotlinGeneratedFilter(), new KotlinLateinitFilter(),
+				new KotlinWhenFilter(), new KotlinWhenStringFilter(),
 				new KotlinUnsafeCastOperatorFilter(),
 				new KotlinNotNullOperatorFilter(),
 				new KotlinDefaultArgumentsFilter(), new KotlinInlineFilter(),
